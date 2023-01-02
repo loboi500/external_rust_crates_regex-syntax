@@ -1,32 +1,3 @@
-[package]
-name = "regex-syntax"
-version = "0.6.23"  #:version
-authors = ["The Rust Project Developers"]
-license = "MIT/Apache-2.0"
-repository = "https://github.com/rust-lang/regex"
-documentation = "https://docs.rs/regex-syntax"
-homepage = "https://github.com/rust-lang/regex"
-description = "A regular expression parser."
-workspace = ".."
-
-# Features are documented in the "Crate features" section of the crate docs:
-# https://docs.rs/regex-syntax/*/#crate-features
-[features]
-default = ["unicode"]
-
-unicode = [
-  "unicode-age",
-  "unicode-bool",
-  "unicode-case",
-  "unicode-gencat",
-  "unicode-perl",
-  "unicode-script",
-  "unicode-segment",
-]
-unicode-age = []
-unicode-bool = []
-unicode-case = []
-unicode-gencat = []
-unicode-perl = []
-unicode-script = []
-unicode-segment = []
+version https://git-lfs.github.com/spec/v1
+oid sha256:1260a7d294aae2ed758f57f7f078a50f988c05c0df9826971e35a81d537c42e0
+size 777
